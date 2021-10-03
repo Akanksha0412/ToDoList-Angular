@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+.muted{
+    color: lightgray;
+    font-size: 15px;
+    text-decoration: line-through;
+    font-family: 'Montserrat',sans-serif;
+}
+.listss{
+    color: green;
+    font-size: 15px;
+    font-family: 'Montserrat',sans-serif;
+}
+.noTask{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+}
+.check{
+    position: relative;
+    top: 5px;
+    margin-left:4px;
+}

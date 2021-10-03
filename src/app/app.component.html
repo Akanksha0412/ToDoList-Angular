@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-xs-12">
+      <div class="box btn"> 
+          <div class=" d-flex flex-lg-row flex-sm-column mb-2 border">
+            <input type="text" [(ngModel)]="textValue" class="form-control m-3" placeholder="Add a new Task"/>
+            <input class="addButton btn btn-primary m-3" type="button" (click)="addTask()" value="ADD TASK"/>
+        </div>
+        <div>
+          <app-list [myData]="list" (checkEvent)="checkVal($event)"></app-list>
+        </div>
+        <div>
+          <input class="removeButton btn btn-primary p-1" type="button" (click)="removeTask()" value="Clear Completed Task"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

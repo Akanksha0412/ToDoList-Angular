@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+.row{
+    background-color:  #66B266 !important;
+    height: 615px;
+}
+.box{
+    background-color: whitesmoke;
+    width: 600px;
+    height: auto;
+    margin-left: 330px;
+    margin-top: 100px;
+}
+.addTask{
+    width: 250px;
+    margin: 5px;
+    color: lightgray;
+    border: 1px solid lightgray;
+}
+.addButton{
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    color: white;
+}
+.border{
+    border-bottom: 1px solid lightgray;
+    color: #66B266;
+    font-family: 'Montserrat',sans-serif;
+}
+.removeButton{
+    color: white;
+    background-color: #66B266;
+    border: 1px solid #66B266;
+    font-family: 'Montserrat',sans-serif;
+}

@@ -1,0 +1,12 @@
+<div *ngIf="myData.length>0">
+    <ul>
+        <li [ngClass]="{'muted':lists.complete}" *ngFor="let lists of myData; let i=index;">
+            <p class="d-flex flex-coloumn" [ngClass]="{'listss':!lists.complete}">
+                {{lists.title}}
+                <input class="check" type="checkbox" (change)="triggerCheck(i)" [attr.id]="i" [checked]="lists.complete"/>
+                <label [attr.for]="i"></label>
+            </p>
+        </li>
+    </ul>
+</div>
+<h3 *ngIf="myData.length == 0" class="noTask">All task have been completed</h3>
